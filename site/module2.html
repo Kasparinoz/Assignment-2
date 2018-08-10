@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Module 2 Assignment</title>
+
+
+<style>
+
+*{
+	box-sizing: border-box;
+	font-family: comic Sans MS
+}
+
+h1{margin-bottom: 15px;
+	text-align: center;
+}
+span{
+	border: 1px solid black;
+	float: right;
+	color:white;
+	font-size: 150%;
+
+	}
+
+
+
+p{
+	border:1px solid black;
+	width:90%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: grey;
+	font-weight: bold;
+	text-align: left;
+	color:black;
+	font-size: 100%;
+	padding-left: 20px;
+
+}
+.chicken{
+	background-color: magenta;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.beef{
+	background-color: pink;
+	padding-left: 45px;
+	padding-right: 45px;
+	}
+.sushi{
+	background-color: purple;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.text{
+	color: black;
+	font-size: 100%;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.chickenlarge, .beeflarge, .sushilarge
+	{float: left;
+	}
+
+	.chickenlarge {
+		width: 33.33%;
+	}
+
+	.beeflarge {
+		width:33.33%;
+	}
+
+	.sushilarge {
+		width: 33.33%;
+	}
+
+
+} 
+
+@media (min-width:768px) and (max-width:991px) {
+	.chickenmd, .beefmd, .sushimd {
+		float: left;
+	}
+
+	.chickenmd{
+		width: 50%;
+	}
+
+	.beefmd{
+		width: 50%;
+	}
+
+	.sushimd{
+		width: 100%;
+
+	}
+
+}
+
+
+
+</style>
+</head>
+<h1>Our Menu</h1>
+<body>
+
+<div class="row">
+	<div class="chickenlarge chickenmd"><p><span class="chicken">Chicken</span><br>dummy text</p></div>
+	<div class="beeflarge beefmd"><p><span class="beef">Beef</span><br>dummy text</p></div>
+	<div class="sushilarge sushimd "><p><span class="sushi">Sushi</span><br>dummy text</p></div>
+</div>
+
+
+</body>
+</html>
